@@ -11,7 +11,7 @@ const Contact = () => (
         TO
         <br />
         {' '}
-        CHAT ❤️
+        CHAT 
       </h1>
     </div>
     <div className="footer-right">

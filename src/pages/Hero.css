@@ -35,7 +35,7 @@
   font-size: 5rem;
   color: white;
   margin: 0;
-  font-family: 'groupe-font', monospace;
+  /* font-family: 'groupe-font', monospace; */
   overflow: hidden;
 }
 
@@ -48,7 +48,7 @@
 
 .paragraph {
   font-size: 1.2rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: white;
   opacity: 0.8;
   font-weight: normal;

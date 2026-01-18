@@ -1,9 +1,12 @@
-* {
-  font-family: sans-serif;
+@font-face {
+  font-family: "heading";
+  src: url("./fonts/OpenType-PS/Norwige-SemiBoldItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: "aquire-font";
-  src: url("./fonts/aquire-font/AquireBold-8Ma60.otf") format("opentype");
+  src: url("./fonts/Jt_mekito/JTMekito-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -20,6 +23,9 @@
   src: url("./fonts/a-astro-space-font/AstroSpace-0Wl3o.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
+}
+* {
+  font-family: "aquire-font";
 }
 body {
   margin: 0;

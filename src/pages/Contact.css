@@ -12,9 +12,9 @@
 }
 
 .footer-left h1 {
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-image: url('../assets/contactbg.jpeg');
+  /* -webkit-text-fill-color: transparent; */
+  /* -webkit-background-clip: text; */
+  /* background-image: url('../assets/contactbg.jpeg'); */
   font-size: 9rem;
   font-family: 'aquire-font', monospace !important;
   letter-spacing: 0.2rem;
@@ -26,7 +26,7 @@
 
 .footer-right h3 {
   font-size: 2.2rem;
-  font-family: 'groupe-font', monospace !important;
+  /* font-family: 'groupe-font', monospace !important; */
   letter-spacing: 0.2rem;
   opacity: 0.8;
 }
@@ -156,5 +156,5 @@ h3 span a::after {
 }
 
 .social a{
-  font-family: 'groupe-font', monospace !important;
+  /* font-family: 'groupe-font', monospace !important; */
 }

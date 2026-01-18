@@ -9,8 +9,8 @@ const Hero = () => (
     <div className="hero-overlay">
       <div className="description">
         <h2 className="title">Hi I AM RATHEESH R</h2>
-        <h3 className="tagline">Transforming Idea into digital realities</h3>
-        <p className="paragraph">Hey there, I'm Ratheesh, a B.Tech student specializing in Artificial Intelligence & Data Science. By day, I'm diving into the world of data, but my creative side shines as a self-employed web designer and front-end developer. I blend technical expertise with design finesse to craft captivating websites and portfolios that exude professionalism. Let's collaborate and bring your digital ideas to life!</p>
+        <h3 className="tagline">Building the Future, One Line of Code at a Time</h3>
+        <p className="paragraph">I'm a Full-Stack Developer with 3 years of hands-on experience building fast, reliable, and user-focused web apps. I work with tools like React, Next.js, Node.js, and PHP to write clean, efficient code that delivers real results. I've also worked on cutting-edge projects using GenAI, AI Agents, and the Agintic AI framework. I’m passionate about solving problems, working with teams, and creating tech that makes an impact.</p>
         <div className="hero-btns">
           <button className="hire-me">
             <a href="https://drive.google.com/file/d/1MPfGEDZ2J2ZHxJh6EQvEGFaC9btpjZwR/view?usp=sharing" target="_blank" rel="noreferrer">

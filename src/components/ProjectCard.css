@@ -28,10 +28,34 @@
   padding: 2% 4% 5% 4%;
 }
 
+.skill_chip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill-icon-fallback{
+  width: 1.5rem;
+  height:auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+}
+
 .stacks {
   display: flex;
   flex-wrap: wrap;
   gap: 0.8rem;
+
+  span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
 }
 
 .tech-stack {
@@ -92,5 +116,5 @@
 }
 
 .card-description h3{
-  font-family: 'groupe-font', monospace !important;
+  /* font-family: 'groupe-font', monospace !important; */
 }

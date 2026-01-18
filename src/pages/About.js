@@ -33,12 +33,18 @@ import Sass from '../assets/sass.png'
 
 import WordPress from '../assets/wordpress.png'
 
+import LangChain from '../assets/langchain.png'
+import LangGraph from '../assets/langgraph.png'
+import RAG from '../assets/rag.png'
+import GenAI from '../assets/genAI.png'
+import AgenticAI from '../assets/agenticAI.png'
+
 const About = () => (
   <section className="about" id="about">
     <div className="about-me">
       <h2 className="title about-title">ABOUT ME</h2>
       <p className="paragraph about-para">
-      My voyage into the realms of programming commenced back in 2021, when I embarked on my freelancing escapade. From that point forward, I've been on an exhilarating journey, navigating through diverse projects that have become the wind beneath my wings, propelling me to new heights of expertise and understanding. As a creative force, I've collaborated with an eclectic array of clients, gracefully dancing between solo endeavors and collective team efforts. My craft revolves around crafting pioneering websites and 3D models  that breathe innovation and user-centric design. Each project is a unique constellation in my ever-expanding universe of skills and knowledge.
+      I'm a Full-Stack Developer who started freelancing in 2021, and since then, I’ve worked on a wide range of projects that sharpened my skills and deepened my passion for building smart, user-focused digital solutions. From modern websites and interactive 3D experiences to cutting-edge AI applications, I’ve collaborated with clients across various industries—both independently and as part of a team. I’ve also worked on advanced technologies like GenAI, AI Agents, and the Agintic AI framework, bringing intelligent, adaptive systems to life. I’m driven by clean code, creative problem-solving, and the challenge of turning complex ideas into powerful digital products.
       </p>
       <button className="hire-me">
         <a href="https://drive.google.com/file/d/1OiTH-OPRpXJ_QDQ_7_x6OT92O22Xphu5/view?usp=sharing" target="_blank" rel="noreferrer">
@@ -47,6 +53,47 @@ const About = () => (
       </button>
     </div>
     <div className="about-skills">
+        <h2 className="skill-title">AI Framworks</h2>
+      <div className="skills">
+        <div className="skill">
+          <img
+            src={LangChain}
+            alt=""
+          />
+          <p>LangChain</p>
+        </div>
+        <div className="skill">
+          <img
+            src={LangGraph}
+            alt=""
+          />
+          <p>LangGraph</p>
+        </div>
+        <div className="skill">
+          <img
+            src={RAG}
+            alt=""
+          />
+          <p>RAG</p>
+        </div>
+        <div className="skill">
+          <img
+            src={GenAI}
+            alt=""
+          />
+          <p>GenAI</p>
+        </div>
+        <div className="skill">
+          <img
+            src={AgenticAI  }
+            alt=""
+          />
+          <p>Agintic AI</p>
+        </div>
+        
+      </div>
+
+
       <h2 className="skill-title">Front-End</h2>
       <div className="skills">
         <div className="skill">
