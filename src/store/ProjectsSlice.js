@@ -1,11 +1,11 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   projects: [],
 };
 
 const projectsSlice = createSlice({
-  name: 'projects',
+  name: "projects",
   initialState,
   reducers: {
     setProjects(state, action) {
@@ -19,7 +19,9 @@ export const { setProjects } = projectsSlice.actions;
 export default projectsSlice.reducer;
 
 export const fetchProjects = () => async (dispatch) => {
-  const response = await fetch('https://ratheeshcoder.github.io/portfolio/assets/portfolio.json');
+  const response = await fetch(
+    "https://iamratheesh.github.io/portfolio/assets/portfolio.json",
+  );
   const data = await response.json();
   dispatch(setProjects(data));
 };
