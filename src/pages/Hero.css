@@ -24,7 +24,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 35%;
+  width: 50%;
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -56,7 +56,7 @@
   margin: 2rem 0;
   text-align: justify;
   width: 85%;
-  
+
 }
 
 .hero-btns {
